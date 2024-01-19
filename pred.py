@@ -53,4 +53,4 @@ if selected == "Contribute to our Dataset":
         to_add.to_csv(r'C:\Users\DELL\Downloads\diabetes\diabetes.csv', mode='a', header=False, index= False)
         stlite.success("Submitted")
     if  stlite.checkbox("Show Table"):
-        stlite.table(data)
+        stlite.table(data) 
